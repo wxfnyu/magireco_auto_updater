@@ -1,4 +1,4 @@
-MagiReco ADB Auto Installer and Updater ver. 2.1 by veritas
+MagiReco ADB Auto Installer and Updater ver. 2.2 by veritas
 ---------------------------------------------------------
 
 What is this?
@@ -21,12 +21,62 @@ MagiReco ADB Auto Updater has been tested and confirmed working on Windows 10. A
 How to use
 ---------------------------
 
-To use MagiReco ADB Auto Updater, you must first enable USB Debugging Mode on your Android device. Please follow the instructions given in the link below for your version of Android.
-https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm
+1. enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
 
-Simply rightclick on magireco_auto_updater.ps1 and press run with Powershell.
+2. Simply rightclick on magireco_auto_updater.ps1 and press run with Powershell.
+
+![what to click](https://b.catgirlsare.sexy/KEvz.png)
 
 If you're confused about any of this, feel free to ping or dm me via the Discord server below.
+
+Advanced
+----------
+
+There are some flags for more advanced users, use at your own peril.
+
+They can be mixed and matched as needed.
+
+### -phonepath
+
+Changes the location of where the APK is uploaded to, might be useful for certain versions of Android
+
+```
+./magireco_auto_updater.ps1 -phonepath "/example/path/magireco.apk"
+```
+
+### -forceADBDownload
+
+Forces the script to download ADB from Google servers and to use that instead of any local installation.
+
+Could be useful if you have an older version of ADB that you need to keep installed for some reason, but a newer
+Android OS.
+
+```
+./magireco_auto_updater.ps1 -forceADBDownload
+```
+
+### -noAPKDownload
+
+Script will not download a remote version of the APK, instead attempting to use an already downloaded one, if one exists.
+
+Useful to save bandwith if it failed on install for some reason.
+
+Will break script! if APK was not already downloaded
+
+```
+./magireco_auto_updater.ps1 -noAPKDownload
+```
+
+### -noInstall
+
+The script will not attempt to install the APK onto a device
+
+Useful for debugging and testing.
+
+```
+./magireco_auto_updater.ps1 -noInstall
+```
+
 
 Credits
 -------
@@ -55,3 +105,8 @@ Now auto detects ADB, and will download if appropriate, better logic overall
 V2.1
 
 Readme very updated
+
+V2.2
+
+Flags added
+
