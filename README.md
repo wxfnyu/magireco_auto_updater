@@ -27,6 +27,10 @@ How to use
 
 ![what to click](https://b.catgirlsare.sexy/KEvz.png)
 
+3. Type y and hit enter to any requests for changes in execution policy
+
+![example of execution policy popup](https://b.catgirlsare.sexy/7jRh.PNG)
+
 If you're confused about any of this, feel free to ping or dm me via the Discord server below.
 
 Advanced
