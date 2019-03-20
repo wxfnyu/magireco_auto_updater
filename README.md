@@ -4,30 +4,30 @@ MagiReco ADB Auto Installer and Updater ver. 2.2 by veritas
 What is this?
 -------------
 
-This is a script that installs or updates MagiReco from a Windows computer to an Android device, automagically! Hopefully with only one or two clicks!
+A script that installs or updates MagiReco from a Windows computer to an Android device, automagically with only one or two clicks!
 
 More technical explaination
 ---------------------------
 
-Utilizes Windows PowerShell to automatically download newest Magia Record .apk file from APKPure and install it to mobile device via Android Debug Bridge(ADB). It will download ADB if needed automatically.
+Utilizes Windows PowerShell to automatically download the newest Magia Record .apk file from APKPure and install it to a mobile device via Android Debug Bridge(ADB). It will download ADB if needed automatically.
 
 Prerequisites
 -------------
 
-Windows machine connected to a supported Android device. If you're not sure if your device is supported, try asking in the MagiReco discord, linked below.
+A Windows machine connected to a supported Android device. If you're not sure if your device is supported, try asking in the MagiReco discord, linked below.
 
-MagiReco ADB Auto Updater has been tested and confirmed working on Windows 10. Although it will most likely run on older versions of Windows with Powershell version >=5, success is not guaranteed.
+MagiReco ADB Auto Updater has been tested and confirmed to be working on Windows 10. Although it will most likely run on older versions of Windows with Powershell version 5 or greater, success is not guaranteed.
 
 How to use
 ---------------------------
 
-1. enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
+1. Enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
 
-2. Simply rightclick on magireco_auto_updater.ps1 and press run with Powershell.
+2. Simply right-click on magireco_auto_updater.ps1 and press "Run with Powershell".
 
 ![what to click](https://b.catgirlsare.sexy/KEvz.png)
 
-3. Type y and hit enter to any requests for changes in execution policy
+3. Type "y" and hit enter to any requests for changes in execution policy
 
 ![example of execution policy popup](https://b.catgirlsare.sexy/7jRh.PNG)
 
@@ -38,7 +38,7 @@ Advanced
 
 There are some flags for more advanced users, use at your own peril.
 
-They can be mixed and matched as needed.
+These flags can be mixed and matched as needed.
 
 ### -phonepath
 
@@ -52,7 +52,7 @@ Changes the location of where the APK is uploaded to, might be useful for certai
 
 Forces the script to download ADB from Google servers and to use that instead of any local installation.
 
-Could be useful if you have an older version of ADB that you need to keep installed for some reason, but a newer
+Could be useful if you have an older version of ADB that you need to keep installed, but a newer
 Android OS.
 
 ```
@@ -63,9 +63,9 @@ Android OS.
 
 Script will not download a remote version of the APK, instead attempting to use an already downloaded one, if one exists.
 
-Useful to save bandwith if it failed on install for some reason.
+Useful to save bandwith if it failed on install.
 
-Will break script! if APK was not already downloaded
+**Will break the script if the APK was not already downloaded**
 
 ```
 ./magireco_auto_updater.ps1 -noAPKDownload
