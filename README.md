@@ -1,4 +1,4 @@
-MagiReco ADB Auto Installer and Updater ver. 2.2 by veritas
+MagiReco ADB Auto Installer and Updater ver. 3.0 by veritas
 ---------------------------------------------------------
 
 What is this?
