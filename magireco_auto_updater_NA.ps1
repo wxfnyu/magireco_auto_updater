@@ -1,1 +1,1 @@
-./magireco_auto_updater.ps1 -NA -noInstall
+./magireco_auto_updater.ps1 -NA
