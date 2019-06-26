@@ -141,3 +141,9 @@ V2.2
 
 Flags added
 
+V3.0
+
+Added support for NA version, NA/JP flags added.
+
+Cleaned up code logic a bit by encapsulating all logic in a Install function
+
