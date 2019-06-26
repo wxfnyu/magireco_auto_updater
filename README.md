@@ -18,16 +18,35 @@ A Windows machine connected to a supported Android device. If you're not sure if
 
 MagiReco ADB Auto Updater has been tested and confirmed to be working on Windows 10. Although it will most likely run on older versions of Windows with Powershell version 5 or greater, success is not guaranteed.
 
-How to use
----------------------------
+How to use (JP Version)
+----------------------------------
 
 1. Enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
 
-2. Simply right-click on magireco_auto_updater.ps1 and press "Run with Powershell".
+2. Download magireco_auto_updater.ps1 \( it's best to put it in its own folder \)
+
+3. Simply right-click on magireco_auto_updater.ps1 and press "Run with Powershell".
 
 ![what to click](https://b.catgirlsare.sexy/KEvz.png)
 
-3. Type "y" and hit enter to any requests for changes in execution policy
+4. Type "y" and hit enter to any requests for changes in execution policy
+
+![example of execution policy popup](https://b.catgirlsare.sexy/7jRh.PNG)
+
+If you're confused about any of this, feel free to ping or dm me via the Discord server below.
+
+How to use (Installing NA Version)
+----------------------------------
+
+1. Enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
+
+2. Download magireco_auto_updater.ps1 and magireco_auto_updater_NA.ps1 and put them in the same folder \( it's best to put them in their own folder \)
+
+3. Simply right-click on magireco_auto_updater_NA.ps1 and press "Run with Powershell".
+
+![what to click](https://b.catgirlsare.sexy/KEvz.png)
+
+4. Type "y" and hit enter to any requests for changes in execution policy
 
 ![example of execution policy popup](https://b.catgirlsare.sexy/7jRh.PNG)
 
@@ -39,6 +58,14 @@ Advanced
 There are some flags for more advanced users, use at your own peril.
 
 These flags can be mixed and matched as needed.
+
+### -NA
+
+Install the NA version instead of the JP version
+
+```
+./magireco_auto_updater.ps1 -NA
+```
 
 ### -phonepath
 
