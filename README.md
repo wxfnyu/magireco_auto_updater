@@ -23,7 +23,7 @@ How to use (JP Version)
 
 1. Enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
 
-2. Download magireco_auto_updater.ps1 \( it's best to put it in its own folder \)
+2. Download magireco_auto_updater.ps1 \( it's best to put it in its own folder on your computer like "Documents/magireco" \)
 
 3. Simply right-click on magireco_auto_updater.ps1 and press "Run with Powershell".
 
@@ -40,7 +40,7 @@ How to use (Installing NA Version)
 
 1. Enable USB Debugging Mode on your Android device. [Guide](https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm)
 
-2. Download magireco_auto_updater.ps1 and magireco_auto_updater_NA.ps1 and put them in the same folder \( it's best to put them in their own folder \)
+2. Download magireco_auto_updater.ps1 and magireco_auto_updater_NA.ps1 and put them in the same folder \( it's best to put them in their own folder on your computer like "Documents/magireco" \)
 
 3. Simply right-click on magireco_auto_updater_NA.ps1 and press "Run with Powershell".
 
